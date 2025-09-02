@@ -1,0 +1,16 @@
+{
+  "name": "star-runner-lite",
+  "version": "1.0.0",
+  "description": "Mini videojuego web estilo platformer con Kaboom.js, Node.js y patrones de diseño (Facade, Adapter, IoC, SOLID).",
+  "type": "module",
+  "scripts": {
+  "start": "node server/server.js",
+  "dev": "set NODE_ENV=development && node server/server.js",
+  "postinstall": "echo \"Listo. Usa 'npm run dev' para desarrollo.\""
+},
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5"
+  }
+}
